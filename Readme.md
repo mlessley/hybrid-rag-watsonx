@@ -7,7 +7,7 @@
 ![Apple M4](https://img.shields.io/badge/Hardware-Apple%20M4%20(Local%20Inference)-silver.svg)
 
 ## 📌 Project Overview
-This repository contains a production-ready Retrieval-Augmented Generation (RAG) pipeline designed for high-security and cost-sensitive environments. The system utilizes a **Hybrid Inference Architecture**, intelligently routing workloads between a local **Apple M4-powered Small Language Model (SLM)** for privacy-first tasks and **IBM Watsonx.ai** for complex reasoning.
+This repository contains a RAG pipeline built for high-security, cost-sensitive environments — a working demonstration of a hybrid inference architecture, not a deployed production system. The system utilizes a **Hybrid Inference Architecture**, intelligently routing workloads between a local **Apple M4-powered Small Language Model (SLM)** for privacy-first tasks and **IBM Watsonx.ai** for complex reasoning.
 
 The project demonstrates a complete end-to-end data engineering lifecycle: from ingestion and recursive character splitting to vectorization and persistent storage in a ChromaDB instance.
 
